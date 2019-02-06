@@ -12,4 +12,4 @@ var firebaseApp = firebase.initializeApp(config);
 
 var db = firebaseApp.database();
 
-exports.sensorRef = db.ref("sensor");
+export const sensorRef = db.ref("sensor");
